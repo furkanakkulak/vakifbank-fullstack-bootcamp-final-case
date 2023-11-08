@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+
+
+    <ItemGroup>
+      <PackageReference Include="LinqKit" Version="1.2.4" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Serilog.AspNetCore" Version="7.0.1-dev-00320" />
+      <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00968" />
+      <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.1-dev-00771" />
+
+
+
+
+
+
+
+
+
+    </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Project>

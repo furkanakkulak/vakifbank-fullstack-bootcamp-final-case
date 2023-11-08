@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Data/VkFinalCase.Data.csproj": {}
+  },
+  "projects": {
+    "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Base/VkFinalCase.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Base/VkFinalCase.Base.csproj",
+        "projectName": "VkFinalCase.Base",
+        "projectPath": "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Base/VkFinalCase.Base.csproj",
+        "packagesPath": "/Users/furkanakkulak/.nuget/packages/",
+        "outputPath": "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Base/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkanakkulak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "LinqKit": {
+              "target": "Package",
+              "version": "[1.2.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.1-dev-00320, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.1-dev-00968, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.1-dev-00771, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Data/VkFinalCase.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Data/VkFinalCase.Data.csproj",
+        "projectName": "VkFinalCase.Data",
+        "projectPath": "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Data/VkFinalCase.Data.csproj",
+        "packagesPath": "/Users/furkanakkulak/.nuget/packages/",
+        "outputPath": "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkanakkulak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Base/VkFinalCase.Base.csproj": {
+                "projectPath": "/Users/furkanakkulak/Desktop/vakifbank-fullstack-bootcamp-final-case/VKFinalCase/VkFinalCase/VkFinalCase.Base/VkFinalCase.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
