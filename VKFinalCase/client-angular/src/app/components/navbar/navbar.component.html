@@ -1,0 +1,87 @@
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a routerLink="/" class="flex items-center">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.8047" height="49.8291">
+        <g>
+          <rect height="49.8291" opacity="0" width="49.8047" x="0" y="0"/>
+          <path d="M24.9023 49.8291C38.5254 49.8291 49.8047 38.5498 49.8047 24.9268C49.8047 11.3281 38.501 0.0244141 24.8779 0.0244141C11.2793 0.0244141 0 11.3281 0 24.9268C0 38.5498 11.3037 49.8291 24.9023 49.8291ZM18.9941 22.6318L17.1143 22.6318C14.1357 22.6318 11.7432 20.2637 11.7432 17.334C11.7432 14.3555 14.1357 11.9629 17.1143 11.9629C20.0439 11.9629 22.4609 14.3799 22.4609 17.334L22.4609 19.2383L27.002 19.2383L27.002 17.334C27.002 14.3799 29.3945 11.9629 32.3486 11.9629C35.3027 11.9629 37.6953 14.3555 37.6953 17.334C37.6953 20.2637 35.3027 22.6318 32.3486 22.6318L30.4443 22.6318L30.4443 27.2461L32.3486 27.2461C35.3027 27.2461 37.6953 29.6143 37.6953 32.5684C37.6953 35.5225 35.3027 37.915 32.3486 37.915C29.3945 37.915 27.002 35.498 27.002 32.5684L27.002 30.6641L22.4609 30.6641L22.4609 32.5684C22.4609 35.498 20.0439 37.915 17.1143 37.915C14.1357 37.915 11.7432 35.5225 11.7432 32.5684C11.7432 29.6143 14.1357 27.2461 17.1143 27.2461L18.9941 27.2461ZM22.4609 27.2705L27.002 27.2705L27.002 22.6074L22.4609 22.6074ZM17.1143 19.2627L18.9941 19.2627L18.9941 17.334C18.9941 16.2842 18.1396 15.4053 17.1143 15.4053C16.0645 15.4053 15.1855 16.2842 15.1855 17.334C15.1855 18.3838 16.04 19.2627 17.1143 19.2627ZM32.3486 19.2627C33.3984 19.2627 34.2773 18.3838 34.2773 17.334C34.2773 16.2842 33.374 15.4053 32.3486 15.4053C31.2988 15.4053 30.4443 16.2842 30.4443 17.334L30.4443 19.2627ZM17.1143 30.6152C16.0645 30.6152 15.1855 31.4941 15.1855 32.5439C15.1855 33.5938 16.04 34.4727 17.1143 34.4727C18.1396 34.4727 18.9941 33.5938 18.9941 32.5439L18.9941 30.6152ZM32.3486 30.6152L30.4443 30.6152L30.4443 32.5439C30.4443 33.5938 31.2988 34.4727 32.3486 34.4727C33.3984 34.4727 34.2773 33.5938 34.2773 32.5439C34.2773 31.4941 33.374 30.6152 32.3486 30.6152Z" fill="#ffb300"/>
+        </g>
+      </svg>
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ml-2">VKStore</span>
+    </a>
+    <div class="flex items-center md:order-2 gap-x-2">
+      <button (click)="toggleDarkMode()" class="bg-primary-500 w-8 h-8 rounded-full lg:flex items-center justify-center text-2xl hidden">
+        <svg *ngIf="!isDarkMode" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></svg>
+        <svg *ngIf="isDarkMode" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg>
+      </button>
+      <button *ngIf="isLoggin" type="button" class="relative bg-primary-500 justify-center items-center w-8 h-8 flex text-2xl rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="notifications-menu-button" aria-expanded="false" data-dropdown-toggle="notifications-dropdown" data-dropdown-placement="bottom">
+        <span class="text-white aspect-square w-4 absolute text-xs -left-1 -top-1 bg-red-600 rounded-full">2</span>
+        <span class="sr-only">Open Notification menu</span>
+        <svg class="rounded-full" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/></svg>
+      </button>
+      <div *ngIf="isLoggin" class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="notifications-dropdown">
+        <div class="px-4 py-3">
+          <span class="block text-sm text-gray-900 dark:text-white text-center">Notifications</span>
+        </div>
+        <ul class="py-2" aria-labelledby="user-menu-button">
+          <li class="border-b dark:border-gray-600">
+            <p class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Profit margin change for your account: Go to account information to view.</p>
+          </li>
+          <li>
+            <p class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+              Your order status has changed: Go to My Orders to view.</p>
+          </li>
+        </ul>
+      </div>
+      <button *ngIf="isLoggin" type="button" class="bg-primary-500 justify-center items-center w-8 h-8 flex text-2xl rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+        <span class="sr-only">Open user menu</span>
+        <svg class="rounded-full" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+      </button>
+      <button routerLink="login" *ngIf="!isLoggin" type="button" class="bg-primary-500 justify-center items-center h-8 flex px-4 py-2 text-base font-medium rounded-lg md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
+        Login
+      </button>
+      <!-- Dropdown menu -->
+      <div *ngIf="isLoggin" class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+        <div class="px-4 py-3">
+          <span class="block text-sm text-gray-900 dark:text-white text-center italic">{{dealerInformations.username}}</span>
+        </div>
+        <ul class="py-2" aria-labelledby="user-menu-button">
+          <li>
+            <a routerLink="orders" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My Orders</a>
+          </li>
+          <li>
+            <a (click)="logout()" class="select-none block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+          </li>
+        </ul>
+      </div>
+      <button data-collapse-toggle="navbar-user" type="button" class="inline-flex items-center justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-user" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a routerLink="/" routerLinkActive="active" class="nav-link">Home</a>
+        </li>
+        <li *ngIf="isLoggin">
+          <a routerLink="/products" routerLinkActive="active"  class="nav-link">Products</a>
+        </li>
+        <li *ngIf="isLoggin">
+          <a routerLink="/contact" routerLinkActive="active" class="nav-link">Contact</a>
+        </li>
+        <li>
+          <a routerLink="/support" routerLinkActive="active"class="nav-link">Support</a>
+        </li>
+        <li>
+          <button (click)="toggleDarkMode()" class="nav-link active w-full mt-5 lg:!hidden lg:mt-0">
+            Change Theme
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
